@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'courses',
     'memberships',
 ]
 
@@ -129,8 +130,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 if DEBUG:
-    STRIPE_PUBLISHABLE_KEY = ''
-    STRIPE_SECRET_KEY = ''
+    STRIPE_PUBLISHABLE_KEY = 'pk_test_51NHAlnLVdI3DdSaJkGkS5DzbrQppTj5rKuqFJdZgYpZHaYv6XurINOYJpRolIDQHD75yJZuLhAar9pMVuWVSU7wi006V97bMbi'
+    STRIPE_SECRET_KEY = 'sk_test_51NHAlnLVdI3DdSaJNWuzOi4cgUU9IFRItNaypmhkIkDg7Z1GpwnWGiyzvif4fidStRRQtjMSAEM71TZkDuYG2T1X00ymynBRdf'
 
 else:
     STRIPE_PUBLISHABLE_KEY = ''
