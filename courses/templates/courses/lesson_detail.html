@@ -6,9 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    {{ object.title }}
-    {% for lesson in object.lesson %}
-        <a href="{{ lesson.get_absolute_url }}">{{ lesson.title }}</a>
-    {% endfor %}
+    {{ object }}
 </body>
 </html>
