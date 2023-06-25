@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(197, 190, 190);
+    width: 90%;
+    height: 40px;
+    
+}
+a{
+    text-decoration: none;
+}
+.breadcrumb{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+div.message{
+    background-color: #ff6b6b;
+    color: #f7fff7;
+}
+ul.message{
+    list-style-type:none ;
+}
