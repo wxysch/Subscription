@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    {{ object }}
+    <h1>Lesson Detail View</h1>
+    {% if object in not None %}
+        {{ object.title }}
+        {{ object.description }}
+        {% else %}
+        <h3>Upgrade membership</h3>
+    {% endif %}
 </body>
 </html>
